@@ -20,19 +20,19 @@
 ** Garbage value is returned if the size of input exceeds
 
 ## 4W's & 1H
-# WHO
+### WHO
 * Students from Electronics domain
 * Digital circutry designer
 
-# What
+### What
 * Convert the number from one base to another with the help of this project in timely manner.
 
-# When
+### When
 * At the initial stage of digital circuit designing operation.
 
-# Where
+### Where
 * At colleges for the verification of mannual calculations for the students.
 
-# How
+### How
 * Performs  calculations and make user's task smooth and effortless. 
 * It will also work with Windows and Linux.
