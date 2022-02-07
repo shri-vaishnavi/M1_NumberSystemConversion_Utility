@@ -11,13 +11,13 @@
 
 
 ## SWOT
-# Strengths:
+### Strengths:
 * Easy conversions can be done
 * Tidious mathematical calculations are not required
 * Easy to use
 
-* Weakness:
-** Garbage value is returned if the size of input exceeds
+### Weakness:
+* Garbage value is returned if the size of input exceeds
 
 ## 4W's & 1H
 ### WHO
