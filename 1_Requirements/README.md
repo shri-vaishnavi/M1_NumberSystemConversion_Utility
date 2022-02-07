@@ -2,13 +2,13 @@
 * The number system conversion project is developed using C Programming. Few most common bases are decimal, binary, octal, hexadecimal. This system converts a decimal number to the number of another base. Since digital logic operation requires a lot of calculations, this system makes the task easier.
 
 ## High Level Requirements
-** 1. User must have Knowledge of number system.
-** 2. Display the output without error
+** User must have Knowledge of number system.
+** Display the output without error
 
 ## Low Level Requirements
-** 1. User must be able to read the output.
-** 2. Selection of choice.
-** 2. Error message must be displayed if it encounters any errors.
+** User must be able to read the output.
+** Selection of choice.
+
 
 ## SWOT
 * Strengths:
