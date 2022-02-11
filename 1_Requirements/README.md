@@ -13,11 +13,11 @@ Conversions can be carried out in a single step or in a multistep manner. Below 
 * Octal to Decimal
 
  # Research
- Binary Number System
+ * Binary Number System
 The binary number system contains two unique numerals (0 and 1). This system is thus a base 2 number system. The relative magnitudes of the symbols are 0 < 1.  The symbols in this system are often referred to as binary digits or just bits.
- Octal Number System
+ * Octal Number System
 The octal number system contains 8 unique numerals (0, 1, 2, 3, 4, 5, 6, 7). This system is thus a base 8 number system. The relative magnitudes of the symbols are 0 < 1 < 2 < 3 < 4 < 5 < 6 < 7.
- Hexadecimal Number System
+ *  Hexadecimal Number System
 The hexadecimal number system contains 16 unique numerals.  Since there are only 10 Arabic numerals in the decimal system, we need to use other symbols to represent the remaining 6 numerals. We use the alphabetic
 characters A–F in order to expand the system to 16 numerals. The 16 numerals in the hexadecimal system are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The relative magnitudes of the symbols are
 0 < 1 < 2 < 3 < 4 < 5 < 6 < 7 < 8 < 9 < A < B < C < D < E < F.
