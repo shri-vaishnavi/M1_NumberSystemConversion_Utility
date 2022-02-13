@@ -74,10 +74,6 @@ int octaltodecimal()
 {
     int n1, n5,p=1,k,ch=1;
 	int dec=0,i=1,j,d;
-
-     printf("\n\nConvert Octal to Decimal:\n ");
-     printf("-------------------------\n");
-
 	printf("Input an octal number (using digit 0 - 7) :");
 	scanf("%d",&n1);
 	n5=n1;
@@ -109,7 +105,7 @@ int octaltodecimal()
 	   dec=dec+(d*p);
 	   i++;
 	}
-        printf("\nThe Octal Number : %d\nThe equivalent Decimal  Number : %d \n\n",n5,dec);
+        printf("The equivalent Decimal  Number : %d \n\n",dec);
         break;
     }
 }
@@ -120,7 +116,7 @@ int decimaltohexa()
     int i = 0, rem;
     char hex_arr[50];
 
-    printf("Enter a decimal number: ");
+    printf("Enter a decimal number to be econverted to hex: ");
     scanf("%d", &num);      
 
     while(num != 0)
@@ -155,7 +151,7 @@ int hexatodecimal()
     long long decimal = 0, base = 1;
     int i = 0, value, length;
     /* Get hexadecimal value from user */
-    printf("Enter hexadecimal number: ");
+    printf("Enter hexadecimal number to be converted to decimal: ");
     fflush(stdin);
     fgets(hex,ARRAY_SIZE,stdin);
     length = strlen(hex);
@@ -177,7 +173,6 @@ int hexatodecimal()
             base *= 16;
         }
     }
-    printf("\nHexadecimal number = %s", hex);
     printf("Decimal number = %lld\n", decimal);
     return 0;
 
@@ -185,7 +180,7 @@ int hexatodecimal()
 }
 int binarytohexadecimal(){
    long int binaryval, hexadecimalval = 0, i = 1, remainder;
-   printf("Enter the binary number: ");
+   printf("Enter the binary number to hexadecimal: ");
    scanf("%ld", &binaryval);
    while (binaryval != 0){
       remainder = binaryval % 10;
@@ -203,7 +198,6 @@ int hexadecimaltobinary()
 	long int count=0;
 	printf("Enter a hexadecimal number To Convet it into Binary : ");
 	scanf("%s",hexNum);
-	printf("\nBinary Number is : ");
 	while(hexNum[count])
 	{
 		switch(hexNum[count])
@@ -262,7 +256,7 @@ int hexadecimaltobinary()
 int octaltobinary()
 {
     int octnum, rev=0, rem;
-    printf("Enter any Octal Number: ");
+    printf("Enter any Octal Number to be converted to binary: ");
     scanf("%d", &octnum);
     while(octnum!=0)
     {
@@ -307,11 +301,7 @@ int binarytooctal()
 	int dec=0,i=1,j,d;
         int ocno=0,dn;
 
-
-     printf("\n\nConvert Binary to Octal:\n ");
-     printf("-------------------------\n");
-
-	printf("Input a binary number :");
+	printf("Input a binary number to be converted to octal:");
 	scanf("%d",&n);
 	n1=n;
 	for (j=n;j>0;j=j/10)
