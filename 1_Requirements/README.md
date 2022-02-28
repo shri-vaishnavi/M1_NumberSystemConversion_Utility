@@ -23,13 +23,23 @@ characters A–F in order to expand the system to 16 numerals. The 16 numerals i
 0 < 1 < 2 < 3 < 4 < 5 < 6 < 7 < 8 < 9 < A < B < C < D < E < F.
 
 ## High Level Requirements
+* Display main menu
 * User must have Knowledge of number system.
 * Display the output without error
 
 ## Low Level Requirements
 * User must be able to read the output.
 * Selection of choice.
-
+### Decimal to binary
+### Binary to Decimal
+### Decimal to octal
+### Octal to Decimal
+### Decimal to Hexa-Decimal
+### Hexa-Decimal to Decimal
+### Binary to Hexa Dcimal
+### Hexadecimal to Binary
+### Octal to Binary
+### Binary to Octal
 
 ## SWOT
 ### Strengths:
