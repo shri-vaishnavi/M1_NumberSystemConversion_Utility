@@ -19,8 +19,7 @@ extern void test_main();
 #define ARRAY_SIZE  20
 int main()
 { 
-    #if 0
-    //retriveFromFile();
+    // #if 0 // Uncomment while Unit testing
     char selection[50];
     int user_choice;
     while(1)
@@ -83,9 +82,10 @@ int main()
             break;
         }
     }
-    #else
+    // Uncomment next 3 lines while unit testing
+    /* #else
     test_main();
-    #endif
+    #endif*/
     return 0;
 
 }

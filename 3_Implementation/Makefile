@@ -1,11 +1,25 @@
 #Target : Dependencies
 #<TAB>commands
 
-Build : main.c conversion.c unity.c test_conversion.c
-	gcc main.c conversion.c unity.c test_conversion.c -o output.out
+PROJ_NAME = Number_System_Conversions
+SRC = src/conversion.c  src/unity.c src/main.c src/test_conversion.c
+ifdef OS
+	RM = del /q
+	FixPath= $(subst /,\,$l)
+	EXEC=exe 
+else
+	ifeq ($(shell uname), Linux)
+		RM = rm -rf
+		FixPath = $Linux
+		EXEC = out
+	endif
+endif	
+
+Build :$(SRC)
+	gcc $(SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC))
 
 Run : Build
-	./output.out
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
-Clean: 
-	rm -rf *.o *.out *.s *.i
+Clean :
+	$(RM) $(call FixPath,$(BUILD_DIR)/*.out)
