@@ -30,16 +30,16 @@ characters A–F in order to expand the system to 16 numerals. The 16 numerals i
 ## Low Level Requirements
 * User must be able to read the output.
 * Selection of choice.
-### Decimal to binary
-### Binary to Decimal
-### Decimal to octal
-### Octal to Decimal
-### Decimal to Hexa-Decimal
-### Hexa-Decimal to Decimal
-### Binary to Hexa Dcimal
-### Hexadecimal to Binary
-### Octal to Binary
-### Binary to Octal
+- Decimal to binary
+- Binary to Decimal
+- Decimal to octal
+- Octal to Decimal
+- Decimal to Hexa-Decimal
+- Hexa-Decimal to Decimal
+- Binary to Hexa Dcimal
+- Hexadecimal to Binary
+- Octal to Binary
+- Binary to Octal
 
 ## SWOT
 ### Strengths:
